@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  font-family: Roboto;
+  font-weight: 400;
+  color: beige;
+  padding: 30px;
+  line-height: 1.7;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 255, 0.336),
+      rgba(241, 36, 36, 0.534)
+    ),
+    url("../img/hero.jpg");
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+}
+
+.header h1 {
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header h3 {
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  top: 60%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
