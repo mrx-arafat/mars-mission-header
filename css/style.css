@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 * {
   margin: 0;
@@ -10,11 +10,12 @@ html {
   font-size: 16px;
 }
 body {
-  font-family: Roboto;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   color: beige;
-  padding: 30px;
+
   line-height: 1.7;
+  padding: 30px;
 }
 
 .header {
@@ -26,22 +27,35 @@ body {
     ),
     url("../img/hero.jpg");
   background-size: cover;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
 }
+.head{
+  display: block;
+}
+.primary-h1 {
 
-.header h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
+  letter-spacing: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.header h3 {
-  font-size: 25px;
-  font-weight: 600;
+.secondary-h1{
+  
+  font-size: 23.5px;
+letter-spacing: 10px;
+  font-weight: 700;
   position: absolute;
   top: 60%;
-  left: 49.5%;
+  left: 49%;
   transform: translate(-50%, -50%);
+
+}
+.logo img{
+height: auto; 
+  width: 60px;
+  margin: 32px;
+  
 }
